@@ -1,1 +1,14 @@
+//Customizar cores
+$primary-color: #1BDC68;
+$secondary-color: #1CCAF4;
+
+//ootstrap colors
+$theme-colors:(
+        "primary-color": $primary-color,
+        "secondary-color": $secondary-color,
+);
+
+//padronizar cor do link
+$link-color: $primary-color;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
