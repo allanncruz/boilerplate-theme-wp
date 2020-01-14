@@ -10831,4 +10831,10 @@ a.text-secondary-color:hover, a.text-secondary-color:focus {
     border-color: #dee2e6;
   }
 }
+
+.carousel .carousel-item img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */
