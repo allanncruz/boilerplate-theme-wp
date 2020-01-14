@@ -10832,6 +10832,18 @@ a.text-secondary-color:hover, a.text-secondary-color:focus {
   }
 }
 
+.news .card .card-img-top,
+.news .list-group .card-img-top {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news .card .card-title,
+.news .list-group .card-title {
+  color: #1BDC68;
+}
+
 .carousel .carousel-item img {
   height: 500px;
   -o-object-fit: cover;

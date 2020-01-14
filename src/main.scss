@@ -16,6 +16,20 @@ $enable-rounded: false;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+.news{
+        .card, 
+        .list-group
+        {
+                .card-img-top{
+                        height: 200px;
+                        object-fit: cover;
+                }
+                .card-title{
+                        color: $primary-color;
+                }
+        }
+}
+
 .carousel{
         .carousel-item img{
                 height: 500px;
