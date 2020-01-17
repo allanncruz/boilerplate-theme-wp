@@ -10844,6 +10844,21 @@ a.text-secondary-color:hover, a.text-secondary-color:focus {
   color: #1BDC68;
 }
 
+.news .card .card-img-overlay,
+.news .list-group .card-img-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.6);
+}
+
 .carousel .carousel-item img {
   height: 500px;
   -o-object-fit: cover;

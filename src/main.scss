@@ -27,6 +27,13 @@ $enable-rounded: false;
                 .card-title{
                         color: $primary-color;
                 }
+
+                .card-img-overlay{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        background: rgba(0,0,0,.6);
+                }
         }
 }
 
