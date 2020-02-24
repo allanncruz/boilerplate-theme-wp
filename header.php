@@ -29,7 +29,18 @@
     <nav class="navbar navbar-expand-lg p-0 navbar-light">
         <div class="container p-0">
             <div class="navbar-brand">
-                <?php the_custom_logo() ?>
+                <?php 
+                    $custom_logo_id = get_theme_mod('custom_logo');
+                    $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
+
+
+                    if(has_custom_logo()) {
+                        echo '<img src="'. esc_url($logo[0]). '" class="img-fluid">';
+                    }else {
+                        echo '<h3>'. get_bloginfo('name'). '</h3>';
+                        echo '<p>'. get_bloginfo('description'). '</p>';
+                    } 
+                ?>
             </div>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
