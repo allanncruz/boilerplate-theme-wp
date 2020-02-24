@@ -1,5 +1,5 @@
-# Atle Consultoria
-Tema WordPress para o site da Atle Consultoria.
+# Started Theme Wordpres
+Tema WordPress para padrões de desenvolvimento.
 
 ## Instalação
 
