@@ -1,0 +1,18 @@
+/*Definir variáveis para cores personalizadas*/
+:root {
+
+    /*Cores*/
+    --primary-color:   #10AAFF;
+    --secondary-color: #1F445C;
+    --light-color:     #eee;
+    --white-color:     #fff;
+    --gray-color:      #999;
+    --dark-color:      #2F2F2F;
+    --black-color:     #000;
+    --red-color:       #da251b;
+
+    /*Textos*/
+    --text-color:      #4D4D4D;
+    --title-color:     #0F0F0F;
+    --subtitle-color:  #777;
+}
