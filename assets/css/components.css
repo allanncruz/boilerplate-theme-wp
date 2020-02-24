@@ -744,114 +744,11 @@ article ul{
             color: var(--secondary-color);
         }
 
-.box-form{
-    max-width: 510px;
-    width: 100%;
-    box-shadow: 0px 18px 66px rgba(0,0,0,0.1);
-}
-
-.box-form form{
-
-    padding: 27px 40px 40px 40px;
-}
-
-    .box-form .form-title{
-        height: 70px;
-        background: #3C3C3C;
-        color: var(--white-color);
-        font: Bold 18px/33px Montserrat;
-        padding: 0 37px;
-        display: flex;
-        align-items: center;
-    }
-
-    .box-form .form-group:nth-child(5) label{
-        font-size: 14px;
-    }
-
-    .box-form .form-control,
-    .box-form .wpcf7-text{
-        border: 0;
-        border-radius: 0;
-        border-bottom: 2px solid #d4d4d4;
-        padding: 0;
-        height: 30px;
-        padding: 0 0 3px 0;
-        height: 36px;
-    }
-
-        .box-form .form-control:focus,
-        .box-form .wpcf7-text:focus,
-        .box-form textarea.form-control:focus,
-        .box-form .wpcf7-textarea:focus{
-            box-shadow: none;
-        }
-
-        .box-form textarea.form-control,
-        .box-form .wpcf7-textarea{
-            border: 1px solid #C6C6C6;
-            height: 102px;
-            margin-top: 12px;
-        }
-
-    .box-form label{
-        font-size: 12px;
-        color: #BABABA;
-        margin: 0;
-        width: 100%;
-    }
-
-    .box-form .btn{
-        width: 100%;
-        border-radius: 0;
-    }
-    .wpcf7-submit{
-        width: 100%;
-        border-radius: 0 !important;
-        font-weight: 900;
-        font-size: 14px;
-        height: 56px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0 45px;
-        color: #fff;
-        background-color: var(--secondary-color) !important;
-        transition: .3s;
-    }
-    .wpcf7-submit:hover{
-        background-color: var(--primary-color) !important;
-    }
-    /* .screen-reader-response{
-        display: none;
-    } */
-
-
-/* Services page */
-
-.servicespage {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 76px;
-    margin-bottom: 478px;
-}
-
-.card__services .card-icon img {
-    width: 55px;
-    object-fit: contain;
-}
-
 
 /*blog*/
 .blog{
     background: var(--white-color);
 }
-
-.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
-    max-width: 100% !important;
-    width: 100% !important;
-}
-
     .card-blog .card-img-top{
         height: 265px;
         object-fit: cover;
@@ -892,31 +789,6 @@ article ul{
     border: 1px solid rgba(0,0,0,.125);
 }
 
-.blog-aside .blog-aside-title{
-    font-weight: 900;
-    text-transform: uppercase;
-}
-.blog-aside  .cat-item a{
-    color: #868e96;
-}
-
-.blog-aside  .cat-item a:hover{
-    color: var(--primary-color);
-}
-
-
-.blog-badge{
-    padding: 35px 0 60px 0;
-}
-    .blog-badge a{
-        background: #F4F4F4;
-        color: #4A4A4A;
-        padding: 10px 30px;
-        font-size: 11px;
-        margin-right: 14px;
-        border-radius:0;
-    }
-
 /*Contact form 7*/
 .wpcf7-text{
     display: block;
@@ -954,13 +826,24 @@ article ul{
     border-color: var(--primary-color);
     outline: 0;
 }
-
-.wpcf7-submit{
-    padding: .4rem 2rem;
-    border-radius: 5px;
-    border: 0;
-    margin-bottom: 1rem;
-}
+        
+    .wpcf7-submit{
+        width: 100%;
+        border-radius: 0 !important;
+        font-weight: 900;
+        font-size: 14px;
+        height: 56px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 45px;
+        color: #fff;
+        background-color: var(--secondary-color) !important;
+        transition: .3s;
+    }
+        .wpcf7-submit:hover{
+            background-color: var(--primary-color) !important;
+        }
 
 /*Messages Contact form 7*/
 div.wpcf7-mail-sent-ok{
@@ -991,10 +874,3 @@ div.wpcf7-validation-errors{
     border: 0 !important;
     color: #fff !important;
 }
-
-@media (min-width: 1200px){
-    .container {
-        max-width: 1169px;
-    }
-}
-
