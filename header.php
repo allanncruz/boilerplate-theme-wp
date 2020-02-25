@@ -9,10 +9,10 @@
 
     <?php wp_head(); ?>
 
-    <link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-32x32.png" sizes="32x32">
-    <link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-180x180.png">
-    <meta name="msapplication-TileImage" content="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-270x270.png">
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-logo-1-32x32" sizes="32x32">
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-1-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-1-180x180.png">
+    <meta name="msapplication-TileImage" content="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-1-270x270.png">
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
 
