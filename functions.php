@@ -3,6 +3,11 @@ flush_rewrite_rules (false);
 // Theme support
 require dirname(__FILE__) .  '/functions/theme_setup.php';
 
+add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+    function my_function_admin_bar(){
+        return false;
+    }
+
 //custom admin login logo
 function custom_login_logo() {
     echo '<style type="text/css">
