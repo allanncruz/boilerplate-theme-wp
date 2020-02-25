@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "node compiler/serve",
+    "start": "node compiler/serve",
+    "build": "node compiler/build"
   },
   "author": "Allan Cruz",
   "license": "ISC",
@@ -34,5 +36,22 @@
     "webpack": "^4.41.6",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0"
-  }
+  },
+  "browserlist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "android 4",
+    "opera 12",
+    "ie >= 10",
+    "ie_mob >= 10",
+    "ff >= 30",
+    "chrome >= 34",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4.4",
+    "bb >= 10",
+    "not dead"
+  ]
 }
