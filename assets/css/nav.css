@@ -161,9 +161,9 @@ nav.navbar span.navbar-whatsapp-label {
         display: block;
     }
 
-    nav .nav-icon{
-        display: inline-block;
-        margin: 2rem 1rem !important;
+    .navbar-social{
+        justify-content: center;
+        margin-bottom: 1rem;
     }
 
     nav.navbar ul.navbar-nav li.menu-item{
@@ -171,6 +171,9 @@ nav.navbar span.navbar-whatsapp-label {
         margin-right: 0;
         text-transform: uppercase;
     } 
+    nav.navbar ul.navbar-nav li.menu-item a{
+        margin: 0;
+    }
 
     nav.navbar .navbar-brand img{
         width: 90px;

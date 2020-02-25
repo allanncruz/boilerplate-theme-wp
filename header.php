@@ -55,7 +55,7 @@
                             </a>
                         </div>
                         <div class="navbar-login">
-                            <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart mr-2"></i> Comprar passeio</a>
+                            <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart mr-2"></i> Comprar</a>
                         </div>
                     </div>
                     <div class="navbar-links">
@@ -65,7 +65,7 @@
                             'depth'             => 2,
                             'container'         => 'div',
                             'container_class'   => 'collapse navbar-collapse',
-                            'container_id'      => 'bs-example-navbar-collapse-1',
+                            'container_id'      => 'navbar-collapse',
                             'menu_class'        => 'nav navbar-nav',
                             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                             'walker'            => new WP_Bootstrap_Navwalker(),
