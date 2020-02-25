@@ -12,7 +12,7 @@ module.exports = {
       noInfo: true,
       overlayStyles: JSON.stringify(overlayStyles)
     });
-    
+
     return `${host}${query}`;
   }
 }
