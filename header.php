@@ -14,7 +14,6 @@
     <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-1-180x180.png">
     <meta name="msapplication-TileImage" content="<?php bloginfo('template_url'); ?>/assets/images/cropped-icon-1-270x270.png">
 
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
 
 </head>
 
