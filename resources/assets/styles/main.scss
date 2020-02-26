@@ -1,4 +1,17 @@
 
+// Importando estilos
+// 
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// Variables
+@import "library/variables";
+
+// Components
+@import "library/nav";
+
 * {
     font-family: "montserratregular", sans-serif;
 }
