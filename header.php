@@ -57,7 +57,7 @@
                             <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart mr-2"></i> Comprar</a>
                         </div>
                     </div>
-                    <div class="navbar-links">
+                    <div class="navbar-low">
                         <?php
                          wp_nav_menu( array(
                             'theme_location'    => 'principal',
