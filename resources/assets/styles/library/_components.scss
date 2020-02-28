@@ -1,0 +1,66 @@
+// Components
+//
+
+// Customize Slick Carousel
+button.slick-arrow {
+	color: #e4e4e4 !important;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	background: none;
+	border: none;
+	font-size: 25px;
+}
+button.slick-prev-arrow {
+	left: 0;
+	margin-left: -15px;
+}
+button.slick-next-arrow {
+	right: 0;
+	margin-right: -15px;
+}
+@media (min-width: 768px) {
+	button.slick-prev-arrow {
+		margin-left: -20px;
+	}
+	button.slick-next-arrow {
+		margin-right: -20px;
+	}
+}
+
+// Vitrine
+.vitrine__carousel {
+	background: whitesmoke;
+	height: 600px;
+	overflow: hidden;
+	.vitrine-thumbnail {
+		height: 600px;
+		background-size: cover !important;
+		position: relative;
+		a {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: 999;
+			left: 0;
+			top: 0;
+		}
+	}
+	button.slick-prev-arrow {
+		margin-left: 20px;
+		z-index: 99;
+	}
+	button.slick-next-arrow {
+		margin-right: 20px;
+		z-index: 99;
+	}
+}
+.vitrine__carousel-mobile {
+	.vitrine-thumbnail {
+		width: 100%;
+		height: 273px;
+		position: relative;
+		background-size: cover !important;
+		background-position: center !important;
+	}
+}
